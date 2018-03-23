@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetSignalRCore", "AspNetSignalRCore\AspNetSignalRCore.csproj", "{EBD925BE-BE5C-4533-B157-1423179293A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SignalR sources", "SignalR sources", "{392E5004-BD7E-4C76-90CA-FCB37C129CFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.SignalR.Redis", "..\..\github\aspnet\SignalR\src\Microsoft.AspNetCore.SignalR.Redis\Microsoft.AspNetCore.SignalR.Redis.csproj", "{BA52D5C6-ADAA-4CD3-8232-C0CDC032BBB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBD925BE-BE5C-4533-B157-1423179293A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD925BE-BE5C-4533-B157-1423179293A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD925BE-BE5C-4533-B157-1423179293A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD925BE-BE5C-4533-B157-1423179293A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA52D5C6-ADAA-4CD3-8232-C0CDC032BBB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA52D5C6-ADAA-4CD3-8232-C0CDC032BBB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA52D5C6-ADAA-4CD3-8232-C0CDC032BBB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA52D5C6-ADAA-4CD3-8232-C0CDC032BBB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA52D5C6-ADAA-4CD3-8232-C0CDC032BBB5} = {392E5004-BD7E-4C76-90CA-FCB37C129CFE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60E510DE-74B7-44AD-BD82-391C1938D85C}
+	EndGlobalSection
+EndGlobal
